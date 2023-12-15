@@ -1,0 +1,144 @@
+.posters {
+    height : 180px;
+    width: 120px;
+    display: flex;
+    object-fit: cover;
+    flex-wrap: wrap;
+    margin: 20px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.posters:hover {
+    transform: scale(1.8);
+    transition: transform .5s;
+}
+
+.content_name {
+    color:white;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-left: 12px;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 25px;
+}
+
+.container {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to bottom, black)
+} */
+
+.background {
+    background: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 1) 50%
+          ), url(../assets/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+} */
+
+.logo_avatar {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.left-section {
+    display: flex;
+}
+
+.netflix-logo {
+    width: 100px;
+    height: 50px;
+}
+
+.right-section {
+    display: flex;
+    
+    padding: 10px;
+}
+
+.netflix-avatar {
+    height: 30px;
+    width: 30px;
+    background: url(../assets/images/avatar.jpg);
+    background-size: cover;
+}
+
+.poster_info {
+    color: white;
+    width: 500px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 34px;
+}
+
+.poster_name {
+    font-size: 75px;
+}
+
+.poster_button0 {
+    padding: 10px;
+}
+
+.poster_button1 {
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 20px;
+}
+
+.poster_button1:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.poster_button2 {
+    font-size: 15px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.poster_button2:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.poster_discription {
+    padding-top: 7px;
+}
